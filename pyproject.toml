@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legli"
+version = "1.0.0"
+description = "CLI launcher for Minecraft: Legacy Console Edition"
+requires-python = ">=3.9"
+
+[project.scripts]
+legli = "legli:main"
+
+[tool.setuptools]
+py-modules = ["legli"]
